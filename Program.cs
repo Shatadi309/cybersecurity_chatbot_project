@@ -33,6 +33,13 @@ namespace cybersecurity_chatbot_project
             //calling the chats method
             collect_chats.chats();
 
+            //creating an instance for the search_and_chat class
+            search_and_chat begin_chat = new search_and_chat();
+
+            //calling the method begin_chat with a parameter
+            string username = "VANTA";
+            begin_chat.chatbot(username);
+
 
 
         }//end of main method

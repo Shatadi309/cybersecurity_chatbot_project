@@ -13,12 +13,12 @@ namespace cybersecurity_chatbot_project
         {//start of the welcome method
 
             //output the welcome method
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("*************************");
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("[ Welcome VANTA  cybersecurity ] ");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("*************************");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("*************************************");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("[ Welcome to VANTA  cybersecurity ] ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("**************************************");
 
             //reset the color
             Console.ResetColor();
@@ -43,7 +43,7 @@ namespace cybersecurity_chatbot_project
             {//start of the do-while loop
 
                 //prompt user for username with text color
-                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("USER:  ");
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
